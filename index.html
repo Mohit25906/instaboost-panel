@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InstaBoost Panel</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <header class="bg-white shadow p-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold">🚀 InstaBoost Panel</h1>
+    <nav><a href="admin.html" class="text-purple-500 mx-2">Admin</a><a href="add-funds.html" class="text-green-500 mx-2">Add Funds</a></nav>
+  </header>
+
+  <section class="text-center py-10 bg-blue-100">
+    <h2 class="text-3xl font-bold mb-2">Buy Instagram Followers, YouTube Views, Facebook Likes</h2>
+    <p class="text-lg">Fast, Reliable & Cheapest SMM Services</p>
+  </section>
+
+  <section class="max-w-4xl mx-auto mt-10 bg-white p-6 rounded shadow">
+    <h2 class="text-2xl font-bold mb-4">👋 Welcome, Mohit</h2>
+    <div class="grid grid-cols-2 gap-4">
+      <div class="p-4 bg-green-100 rounded">💰 Wallet Balance: ₹1350.00</div>
+      <div class="p-4 bg-yellow-100 rounded">📦 Total Orders: 7</div>
+      <div class="p-4 bg-blue-100 rounded col-span-2">📈 Active Services: Instagram, YouTube</div>
+    </div>
+
+    <div class="mt-6">
+      <button class="bg-blue-500 text-white px-4 py-2 rounded mr-2">Place Order</button>
+      <button class="bg-gray-500 text-white px-4 py-2 rounded mr-2">Add Funds</button>
+      <button class="bg-red-500 text-white px-4 py-2 rounded">Logout</button>
+    </div>
+  </section>
+
+  <section class="max-w-2xl mx-auto mt-10 bg-white p-6 rounded shadow">
+    <h2 class="text-xl font-bold mb-4">📦 Place New Order</h2>
+    <form onsubmit="alert('Order placed!')">
+      <label class="block mb-2 font-medium">Service</label>
+      <select class="w-full mb-4 p-2 border rounded"><option>Instagram Followers</option><option>YouTube Views</option><option>Facebook Likes</option></select>
+      <label class="block mb-2 font-medium">Link</label>
+      <input type="url" placeholder="https://instagram.com/your_profile" class="w-full mb-4 p-2 border rounded" required>
+      <label class="block mb-2 font-medium">Quantity</label>
+      <input type="number" placeholder="1000" class="w-full mb-4 p-2 border rounded" required>
+      <button type="submit" class="bg-green-500 text-white px-4 py-2 rounded">✅ Submit Order</button>
+    </form>
+  </section>
+
+  <footer class="text-center text-sm text-gray-500 py-6">&copy; 2025 InstaBoost Panel. All rights reserved.</footer>
+</body>
+</html>
